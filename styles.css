@@ -1,0 +1,415 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1 {
+    color: orange;
+    margin-bottom: 30px;
+}
+
+/* Navigation Bar Styles */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    color: orange;
+    background-color: #444;
+    border-radius: 5px;
+}
+
+/* Form Styles */
+.form-container {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    width: 250px;
+    border: 2px solid orange;
+    background-color: black;
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: orange;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: darkorange;
+}
+
+/* Members List Styles */
+.members-list {
+    margin-top: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.member {
+    background-color: #333;
+    color: orange;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+.member input {
+    background-color: black;
+    border: 2px solid orange;
+    color: white;
+    padding: 5px;
+    width: 150px;
+    margin: 5px;
+}
+
+.member button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.member button:hover {
+    background-color: darkred;
+}
+
+/* Small Screen Responsiveness */
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+
+    input {
+        width: 200px;
+    }
+
+    .member {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+/* Navigation Bar Styles */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    color: orange;
+    background-color: #444;
+    border-radius: 5px;
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    color: orange;
+    background-color: #444;
+    border-radius: 5px;
+}
+
+/* Form and Members List */
+.form-container {
+    margin-bottom: 30px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #cc7a00;
+}
+
+/* Members Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+td a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, #ff6600, #ffcc00, #ff3399, #ff6666); /* Initial Gradient */
+    background-size: 400% 400%; /* Controls the size of the gradient */
+    animation: gradientAnimation 15s ease infinite; /* Animation to move the gradient */
+    color: #333;
+}
+
+/* Animation for gradient movement */
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Additional Styles (for the container and navigation) */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    color: orange;
+    background-color: #444;
+    border-radius: 5px;
+}
+/* Particles.js Container Styling */
+#particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Makes sure the particles are behind the content */
+}
+/* Particles.js Container Styling */
+#particles-js {
+    position: fixed;  /* Fixed position so it stays in the background */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Ensures particles are behind all other content */
+    pointer-events: none; /* Prevents interaction with particles */
+}
+
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Black background to enhance star effect */
+    color: #fff; /* White text for contrast */
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+    
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    display: inline-flex; /* Use flexbox to align the image and text */
+    align-items: center;  /* Align the image and text vertically */
+}
+
+nav ul li a:hover, nav ul li a.active {
+    color: orange;
+    background-color: #444;
+    border-radius: 5px;
+}
+
+/* Styling for Images in Navigation */
+.nav-img {
+    width: 30px;  /* Adjust size of the images */
+    height: 30px; /* Make sure the images are square */
+    margin-right: 8px;  /* Space between the image and the text */
+    border-radius: 50%; /* Optional: to make the images round */
+}
+
+/* Your additional styles (container, etc.) */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+    
